@@ -16,7 +16,8 @@ return new class extends Migration
             $table->integer('nis');
             $table->string('nama');
             $table->string('kelas');
-            $table->string('');
+            $table->string('alamat');
+            $table->string('email');
             $table->timestamps();
         });
     }
